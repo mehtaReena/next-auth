@@ -49,7 +49,7 @@ function CreateTicket(props) {
                      value={ticket} onChange={e => setTicket(e.target.value)} style={{width:"70%", height:"30%" ,
                      padding:"10px", borderRadius :"5px"}}></input>
                 </div>
-                <div className={styles.control}>
+                <div className={styles.formcontrol}>
                     <label htmlFor="email">Email</label>
                     <input type="email" id="email" placeholder="Your email" required
                     value={email} onChange={e => setEmail(e.target.value)}
